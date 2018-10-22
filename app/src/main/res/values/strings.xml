@@ -2,4 +2,10 @@
     <string name="app_name">SigueNumPrimo</string>
 
     <string name="calcular">Calcular</string>
+
+    <string name="ingresarPosicion">Ingrese Posición</string>
+    <string name="resultadoCalculo">Resultado de Calculo</string>
+    <string name="explicacion">La funcion de la aplicacion es, que al ingresar un número el resultado sea el numero primo que ocupe esa posición.</string>
+
+
 </resources>
