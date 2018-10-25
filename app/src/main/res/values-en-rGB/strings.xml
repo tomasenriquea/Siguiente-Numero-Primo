@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SigueNumPrimo</string>
+    <string name="ingresarPosicion">Enter Position</string>
+    <string name="resultadoCalculo">Calculation Result</string>
+    <string name="calcular">Calculate</string>
+    <string name="explicacion">The function of the application is that when entering a number the result is the prime number that occupies that position.</string>
+</resources>

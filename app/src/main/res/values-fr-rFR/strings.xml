@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SigueNumPrimo</string>
+    <string name="explicacion">La fonction de l\'application est que lors de la saisie d\'un nombre, le résultat est le nombre premier occupant cette position.</string>
+    <string name="ingresarPosicion">Entrez la position</string>
+    <string name="resultadoCalculo">Résultat du calcul</string>
+    <string name="calcular">Calculer</string>
+</resources>
