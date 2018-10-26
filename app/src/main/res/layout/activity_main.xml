@@ -16,6 +16,8 @@
         android:layout_marginTop="32dp"
         android:background="@color/blancoGris"
         android:lines="1"
+        android:maxLength="6"
+        android:textSize="25sp"
         android:hint="@string/ingresarPosicion"
         android:inputType="number"
         android:gravity="center"
@@ -23,6 +25,24 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <TextView
+        android:id="@+id/resultado"
+        android:layout_width="316dp"
+        android:layout_height="66dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="56dp"
+        android:background="@color/blancoGris"
+        android:gravity="center"
+        android:hint="@string/resultadoCalculo"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/posicion" />
+
+
+    <!--
     <EditText
         android:id="@+id/resultado"
         android:layout_width="320dp"
@@ -40,6 +60,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/posicion" />
 
+    -->
+
     <Button
         android:id="@+id/calcular"
         android:layout_width="153dp"
@@ -47,7 +69,7 @@
         android:layout_marginBottom="44dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        android:onClick="calcular"
+        android:onClick="buscarNumeroPrimo"
         android:text="@string/calcular"
         android:textSize="25sp"
         android:textColor="@color/verdeClaro"
@@ -72,5 +94,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/resultado" />
+
+
 
 </android.support.constraint.ConstraintLayout>

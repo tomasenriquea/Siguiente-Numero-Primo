@@ -1,11 +1,11 @@
 <resources>
     <string name="app_name">SigueNumPrimo</string>
 
-    <string name="calcular">Calcular</string>
+    <string name="calcular">Calculate</string>
 
-    <string name="ingresarPosicion">Ingrese Posición</string>
-    <string name="resultadoCalculo">Resultado de Calculo</string>
-    <string name="explicacion">La funcion de la aplicacion es, que al ingresar un número el resultado sea el numero primo que ocupe esa posición.</string>
+    <string name="ingresarPosicion">Enter Position</string>
+    <string name="resultadoCalculo">Calculation Result</string>
+    <string name="explicacion">The function of the application is that when entering a number the result is the prime number that occupies that position.</string>
 
 
 </resources>
