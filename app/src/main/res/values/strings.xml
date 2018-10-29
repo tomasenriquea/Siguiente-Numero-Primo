@@ -3,6 +3,8 @@
 
     <string name="calcular">Calculate</string>
 
+
+    <string name="titulo_app">Next Prime Number</string>
     <string name="ingresarPosicion">Enter Position</string>
     <string name="resultadoCalculo">Calculation Result</string>
     <string name="explicacion">The function of the application is that when entering a number the result is the prime number that occupies that position.</string>

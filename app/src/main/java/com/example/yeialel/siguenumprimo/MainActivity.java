@@ -1,8 +1,9 @@
 package com.example.yeialel.siguenumprimo;
 
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
+import android.text.Layout;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -15,15 +16,28 @@ public class MainActivity extends AppCompatActivity {
 
      EditText ingresoNumerosBuscar;
      TextView resultadoBusqueda;
-
+     TextView detalle;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        //Aqui ponemos el titulo de la App y la centramos usando lo siguente:
+        getSupportActionBar().setDisplayOptions(ActionBar.DISPLAY_SHOW_CUSTOM);
+        getSupportActionBar().setCustomView(R.layout.texto_centrado_titulo);  // Esto es el archivo XML creado
+
+
         ingresoNumerosBuscar = (EditText) findViewById(R.id.posicion); // esto es el ingreso del los numeros.
         resultadoBusqueda = (TextView) findViewById(R.id.resultado); // aqui se muestra el resultado de la busqueda.
 
+
+
+        detalle = (TextView) findViewById(R.id.textDetalleApp);
+        /** Esto de aqui sirve para justificar el texto en donde:
+         * @param JUSTIFICATION_MODE_INTER_WORD devuelve un valor entero = 1
+         *
+         * El otro valor y es por defecto es 'JUSTIFICATION_MODE_NONE' = 0   */
+        detalle.setJustificationMode(Layout.JUSTIFICATION_MODE_INTER_WORD);
 
         // aqui se estan generando los numeros primos.  --> SOLUCIONAR PORQUE TARDA MUCHO EN CARGAR.
        GeneradorNumeroPrimo numerosPrimos = new GeneradorNumeroPrimo();

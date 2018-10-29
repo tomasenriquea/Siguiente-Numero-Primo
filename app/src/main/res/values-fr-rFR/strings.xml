@@ -5,4 +5,5 @@
     <string name="ingresarPosicion">Entrez la position</string>
     <string name="resultadoCalculo">Résultat du calcul</string>
     <string name="calcular">Calculer</string>
+    <string name="titulo_app">Prochain nombre premier</string>
 </resources>

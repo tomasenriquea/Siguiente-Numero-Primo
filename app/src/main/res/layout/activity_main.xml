@@ -42,26 +42,6 @@
         app:layout_constraintTop_toBottomOf="@+id/posicion" />
 
 
-    <!--
-    <EditText
-        android:id="@+id/resultado"
-        android:layout_width="320dp"
-        android:layout_height="59dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="32dp"
-        android:background="@color/blancoGris"
-        android:lines="1"
-        android:hint="@string/resultadoCalculo"
-        android:gravity="center"
-        android:inputType="number"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.493"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/posicion" />
-
-    -->
-
     <Button
         android:id="@+id/calcular"
         android:layout_width="153dp"
@@ -89,6 +69,7 @@
         android:layout_marginTop="8dp"
         android:text="@string/explicacion"
         android:textSize="25sp"
+
         android:background="@color/blancoGris"
         app:layout_constraintBottom_toTopOf="@+id/calcular"
         app:layout_constraintEnd_toEndOf="parent"
