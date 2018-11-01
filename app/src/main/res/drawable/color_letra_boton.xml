@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:color="@color/verdeClaro" android:state_pressed="false" />
+    <item android:drawable="@android:color/black" />
+</selector>
+
+<!--
+1) Con el primer item se establece el color de la letra
+   cuando se presiona el boton la letra cambia al color seleccionado de abajo
+
+   Aqui 'false' significa que el color verde esta activo y cuando se presiona es 'true'
+   y cambia a otro color.
+   <item android:color="@color/verdeClaro" android:state_pressed="false" />
+-->
